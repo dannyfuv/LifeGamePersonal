@@ -2,3 +2,14 @@ language: java
 
 jdk:
         - oraclejdk6
+        
+before_script:
+      - mkdir -p shippable/testresults
+      - mkdir -p shippable/codecoverage
+      
+script:
+      - grunt
+      
+after_script:
+      - ./node_modules/.bin/istanbul cover grunt -- -u tdd
+      - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
