@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tsi.lifegame.core.CellTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-09-19T20:17:15" hostname="TSI-DESARROLLO1" time="0.0030">
+  <properties/>
+  <testcase name="DiesByOvercrowding" classname="com.tsi.lifegame.core.CellTest" time="0.0010"/>
+  <testcase name="CellIsAlive" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <testcase name="DiesByUnderPopulation" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <testcase name="LivesNextGeneration" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <testcase name="CellIsDead" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <testcase name="BecomesLiveByReproduction" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <testcase name="ExistCell" classname="com.tsi.lifegame.core.CellTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

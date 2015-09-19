@@ -2,7 +2,7 @@ package com.tsi.lifegame.core;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
-import co.com.tsi.codingdojo.lifegame.core.Cell;
+import com.tsi.lifegame.core.Cell;
 
 public class CellTest{
 
