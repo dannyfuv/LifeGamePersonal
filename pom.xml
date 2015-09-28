@@ -11,8 +11,7 @@
   <name>Example of multi-module Maven project</name>
 
   <modules>
-    <module>common</module>
-    <module>client</module>
+    <module>src</module>
   </modules>
 
   <build>
