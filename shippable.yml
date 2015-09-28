@@ -1,7 +1,8 @@
 language: java
 
 jdk:
-        - oraclejdk6
-        
+   - oraclejdk6
+
 script:
-        - ant coverage
+   - mvn clean cobertura:cobertura
+   - mvn test
