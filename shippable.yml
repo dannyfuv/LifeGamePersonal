@@ -7,5 +7,6 @@ before_script:
     mkdir -p shippable/codecoverage
     mkdir -p shippable/testresults
     
-script:
-    - mvn clean cobertura:cobertura 
+after_succes:
+    - mvn clean cobertura:cobertura
+    - mvn test
