@@ -8,5 +8,6 @@ before_script:
     mkdir -p shippable/testresults
     
 script:
-   - mvn clean cobertura:cobertura
-   - mvn test
+   - nosetests src/test/java/com.tsi.lifegame.core/*.java --with-xunit --xunit-file=shippable/testresults/nosetests.xml
+   - coverage run --master src/test/java/com.tsi.lifegame.core/*.java
+   - coverage xml -o shippable/codecoverage/coverage.xml src/test/java/com.tsi.lifegame.core/*.java
