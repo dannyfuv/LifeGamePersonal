@@ -2,10 +2,6 @@ language: java
 
 jdk:
    - oraclejdk6
-
-before_script:
-    mkdir -p shippable/codecoverage
-    mkdir -p shippable/testresults
     
 after_succes:
     - mvn clean cobertura:cobertura
